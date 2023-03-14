@@ -1,17 +1,17 @@
 html {
   font-family: open-sans, arial;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 10px;
   scroll-behavior: smooth;
 }
 
 #main-title{
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
 	font-weight: bold;
 	font-family: sans-serif, Arial;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
 }
 
 body {
@@ -22,20 +22,23 @@ body {
 #toc {
   padding-top: 20;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.5em;
+  
 }
 
-#navbar > .nav-link {
+.nav-link {
   text-align: left;
   padding-top: 20;
   padding-bottom: 20;
   margin-bottom: 5;
   margin-top: 10;
+  font-size: 1.2em;
 }
 
 h1{
   text-align: left;
-  font-size: 18px;
+  font-size: 1.25em;
+  margin-bottom: 2px;
 }
 
 .indent {
@@ -51,19 +54,21 @@ h1{
     font-size: 14px;
   }
 }
-
 }
 
 code {
   font-family: Consolas, monospace;
   font-size: 14px;
   background-color: #f7f7f7;
-  padding: 0 4px;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
   border-top: none;
   border-bottom: none;
   border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .divider1 {
@@ -82,4 +87,16 @@ code {
   border-bottom: 2px solid black;
   margin-left: 6px;
   margin-right: -6px;
+}
+
+.divider4{
+  padding-top: 1px;
+  border-bottom: 2px solid black;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.main-section {
+  padding-left: 30px;
+  padding-right: 30px;
 }
