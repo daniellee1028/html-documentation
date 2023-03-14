@@ -100,3 +100,13 @@ code {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+a:visited {
+  color: blue;
+}
+
+img {
+  float: left;
+  width: 4em; 
+  height: auto;
+}
