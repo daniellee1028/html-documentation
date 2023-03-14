@@ -1,0 +1,85 @@
+html {
+  font-family: open-sans, arial;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  scroll-behavior: smooth;
+}
+
+#main-title{
+  text-align: center;
+  font-size: 4em;
+	font-weight: bold;
+	font-family: sans-serif, Arial;
+	letter-spacing: 5px;
+}
+
+body {
+  background-color: #f7f7f7;
+  line-height: 1.5;
+}
+
+#toc {
+  padding-top: 20;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#navbar > .nav-link {
+  text-align: left;
+  padding-top: 20;
+  padding-bottom: 20;
+  margin-bottom: 5;
+  margin-top: 10;
+}
+
+h1{
+  text-align: left;
+  font-size: 18px;
+}
+
+.indent {
+  margin-left: 30px;
+}
+
+.double-indent {
+  margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+}
+
+code {
+  font-family: Consolas, monospace;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  padding: 0 4px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+
+.divider1 {
+  border-bottom: 4px solid black;
+}
+
+.divider2 {
+  padding-top: 1px;
+  border-bottom: 3px solid black;
+  margin-left: 3px;
+  margin-right: -3px;
+}
+
+.divider3 {
+  padding-top: 1px;
+  border-bottom: 2px solid black;
+  margin-left: 6px;
+  margin-right: -6px;
+}
